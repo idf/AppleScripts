@@ -6,5 +6,5 @@ Installation:
 tell application "Skim"
 	set namePDF to name of document 1
 	set filePath to file of document 1
-	save document 1 in (POSIX path of filePath) & namePDF as "PDF With Embedded Notes"
+	save document 1 in (POSIX path of filePath) as "PDF With Embedded Notes"
 end tell
